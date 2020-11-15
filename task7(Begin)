@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+	float R, p=3.14, S=0, L=0;
+	cin>>R;
+	L=2*p*R;
+	S=p*R*R;
+	cout<<"L="<<L<<"; S="<<S;
+	return 0;
+}

@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a, b, c, x=0, y=0;
+	cin>>a>>b>>c;
+	if (a>c) x=a-c; else x=c-a;
+	if (b>c) y=b-c; else y=c-b;
+	cout<<x+y;
+	return 0;
+}
